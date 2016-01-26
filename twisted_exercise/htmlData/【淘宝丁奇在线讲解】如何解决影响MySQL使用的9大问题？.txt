@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>淘宝丁奇：如何解决影响MySQL使用的9大问题？-活动-CSDN.NET</title>
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://c.csdnimg.cn/public/themes/default/css/common.css">
+    <link rel="stylesheet" type="text/css" href="http://c.csdnimg.cn/public/themes/default/css/icon.css">
+    <link rel="stylesheet" type="text/css" href="http://c.csdnimg.cn/public/themes/default/css/btn.css">
+    <link rel="stylesheet" type="text/css" href="http://c.csdnimg.cn/public/static/css/tab.css">
+    <link rel="stylesheet" type="text/css" href="http://c.csdnimg.cn/public/static/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="http://c.csdnimg.cn/public/common/toolbar/css/index.css">
+    <link rel="stylesheet" type="text/css" href="http://c.csdnimg.cn/public/static/css/pagination.css">
+    <link rel="stylesheet" type="text/css" href="http://huiyi.csdn.net/themes/activity/cat_default/css/common.css">
+    <link rel="stylesheet" type="text/css" href="http://huiyi.csdn.net/themes/activity/cat_default/css/active_closed.css">
+    <link rel="stylesheet" type="text/css" href="http://huiyi.csdn.net/themes/activity/cat_default/css/mod_head.css">
+    <link rel="stylesheet" type="text/css" href="http://huiyi.csdn.net/themes/activity/cat_default/css/act-from.css">
+    <link rel="stylesheet" type="text/css" href="http://huiyi.csdn.net/themes/activity/cat_default/css/myActive.css">
+    <link rel="stylesheet" type="text/css" href="http://huiyi.csdn.net/themes/activity/cat_default/css/mod_signup.css">
+    <link rel="stylesheet" type="text/css" href="http://huiyi.csdn.net/themes/activity/cat_default/css/Sponsor_information.css">
+    <link rel="stylesheet" type="text/css" href="http://huiyi.csdn.net/themes/activity/cat_default/css/mod_invite.css">
+    <link rel="SHORTCUT ICON" href="http://csdnimg.cn/public/favicon.ico">
+    <script src="http://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js"></script>
+    <script src="http://huiyi.csdn.net/themes/activity/cat_default/js/html5shiv.min.js"></script>
+    <script src="http://huiyi.csdn.net/themes/activity/cat_default/js/respond.min.js"></script>
+   <script src="http://huiyi.csdn.net/themes/activity/cat_default/js/bootstrap.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+<script id="toolbar-tpl-scriptId" src="//c.csdnimg.cn/public/common/toolbar/js/html.js" prod="my" skin="black" type="text/javascript"></script><style>
+	.login_content{width: 406px;}
+	.login_content label{display: block;}
+	.csdn_loginbox .remember input{margin: 0 10px 0 0 ;}
+</style>
+<link rel="stylesheet" type="text/css" href="http://huiyi.csdn.net/themes/activity/public_css/activity_info.css">
+<link rel="stylesheet" type="text/css" href="http://huiyi.csdn.net/themes/activity/cat_default/css/charge_active_info.css">
+<div class="main clearfix">
+    <div class="act-head">
+        <dl class="con">
+          <dt>
+            <h2>淘宝丁奇：如何解决影响MySQL使用的9大问题？</h2>
+          </dt>
+          <dd>在线 &nbsp;&nbsp;2016年01月28日20:30 - 21:30</dd>
+        </dl>        <div class="arr"></div>
+      </div>        <div class="clearfix act-mianbg">
+        <div class="left-side">
+        <h3 class="act-red-tit">活动信息</h3>
+                  
+                <div class="active-info">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th width="160">名称</th>
+                            <th>报名截止时间</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>免费票</td>
+                            <td>2016-01-27 17:00:00</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="free">
+                        <span class="submit">
+                            <span>总费用: 免费</span>
+                                                                                         <a target="_blank" href="http://huiyi.csdn.net/activity/product/free?project_id=2782" class="apply">申请参会</a>
+                                                                                </span>
+                    </div>
+                </div>
+            
+                    <div class="guests-intro">
+                <div class="guests">
+                                    
+                </div>
+                                <div class="intro dec">
+                    <h3>会议介绍</h3>
+                    <p><p><span style="font-size:16px;">Note：本课程是系列在线视频培训课程，本期主题是&ldquo;如何解决影响MySQL使用的9大问题</span><span style="font-size:16px;">&rdquo;，更多议题内容可查看下方议题提纲（拟定，根据实际进度调整）。PS：CSDN数据库技术交流QQ群：123038767。</span></p>
+
+<p><img alt="" src="http://img.bss.csdn.net/201601191437173711.jpg" style="width: 600px; height: 450px; float: left;" /></p>
+
+<p>&nbsp;</p>
+
+<p><strong style="line-height: 20.7999992370605px; font-size: 16px;"><span class="s1">演讲嘉宾：</span></strong><span style="line-height: 1.6em; font-size: 16px;">林晓斌（丁奇）阿里云RDS数据库源码开发团队负责人，淘宝MySQL版本的核心开发者之一。</span></p>
+
+<p><strong style="font-size: 16px; line-height: 1.6em;">嘉宾介绍：</strong><span style="font-size:16px;"><span style="line-height: 1.6em;">丁奇是CSDN的老朋友了。其《<a href="http://www.csdn.net/article/2015-01-16/2823591"><span style="color:#FF0000;">淘宝内部分享：怎么跳出MySQL的10个大坑</span></a>》一直高居数据库文章的阅读榜首。作为活跃的MySQL社区贡献者，丁奇专注于数据存储系统、MySQL源码研究和改进、MySQL性能优化和功能改进，并设计了阿里云高可靠双通道binlog方案。他在业务场景分析、系统瓶颈分析、性能优化方面拥有丰富的经验。微博@淘宝丁奇。</span></span></p>
+
+<p class="p1"><strong style="line-height: 1.6em;"><span style="font-size: 16px; line-height: 20.7999992370605px;">演讲主题：如何解决影响MySQL使用的9大问题</span></strong></p>
+
+<p><strong style="font-size: 16px; line-height: 1.6em;">议题提纲：</strong></p>
+
+<p><span style="font-size:16px;">现在数据库有很多类型，MySQL、PostgreSQL、SQL Server、MongoDB等。本次重点讲讲MySQL。</span></p>
+
+<p><span style="font-size:16px;">不久前分享了《<a href="http://geek.csdn.net/news/detail/52437"><span style="color:#FF0000;">解析MySQL各版本并行复制</span></a>》的内容，发现大家对于MySQL的可靠性、可用性、稳定性等方面还有很多问题和困惑，所以准备在本次分享中重点分析下我们是如何彻底解决影响MySQL使用的9大问题的。包括问题产生的背景，数据库内核和运维团队是如何解决的，以及对于还没有使用云数据库，而是自建数据库的团队，我们的建议实践方案。</span></p>
+
+<ol>
+ <li><span style="font-size:16px;">高可靠性问题，重点是恢复到任意时间点、主备校验、引擎处理、主备切换策略。</span></li>
+ <li><span style="font-size:16px;">高可用性问题，重点是主备延迟、连接保持。</span></li>
+ <li><span style="font-size:16px;">稳定性问题，重点是连接限制、临时表限制、导数据保护。</span></li>
+</ol>
+
+<p style="line-height: 20.8px;"><span style="font-size:16px;"><span style="color: rgb(178, 34, 34);"><span style="font-family: 'microsoft yahei';"><strong>重要提示</strong></span></span></span></p>
+
+<p style="line-height: 20.8px;"><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';"><strong>直播时间</strong></span></span></p>
+
+<p style="line-height: 20.8px;"><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';"><span style="color: rgb(255, 165, 0);">1月28日（星期四）晚20点30分&mdash;&mdash; 21点30分</span></span></span></p>
+
+<p style="line-height: 20.8px;"><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';"><strong>注意</strong></span></span></p>
+
+<p style="line-height: 20.8px;"><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';"><span style="color: rgb(255, 140, 0);">点击【申请参会】按钮成功报名后，「CSDN将在1月28日下午前发送短信/邮件公布参与链接」，请在1月28日20：20 - 21：30，使用报名所填写的邮箱地址直接登录视频直播平台。</span></span></span></p>
+
+<p style="line-height: 20.8px;"><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';"><strong>参加流程</strong></span></span></p>
+
+<p style="line-height: 20.8px;"><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';"><span style="color: rgb(255, 140, 0);">报名参加 &mdash;&mdash; 邮件/短信 获得直播间入口链接 &mdash;&mdash; 观看视频 &mdash;&mdash; 实时问答</span></span></span></p>
+
+<ol style="line-height: 20.8px;">
+ <li><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';">在线视频直播互动，采用三分屏模式，让您感受真实的对话环境。</span></span></li>
+ <li><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';">本次会议机会难得，由于报名人员较多，将对申请参会者进行资格审核，请您务必填写真实个人信息以便通知（短信、邮件）及时送达，确保您的顺利参加。</span></span></li>
+ <li><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';">邮件和短信提醒将会在课程当天发出，具体时间以邮件通知为准！</span></span></li>
+</ol>
+
+<p style="line-height: 20.8px;"><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';"><span style="color: rgb(255, 140, 0);">小伙伴们快来报名参加吧！</span></span></span></p>
+
+<p style="line-height: 20.8px;"><span style="font-size:16px;"><span style="font-family: 'microsoft yahei';"><strong>如有任何问题，请联系QQ号</strong>116957036予以咨询<strong>，</strong></span><span style="line-height: 20.7999992370605px;">数据库技术交流QQ群：123038767</span><span style="line-height: 20.7999992370605px;"><font face="microsoft yahei"><b>。</b></font></span></span></p>
+
+<p style="line-height: 20.8px;"><span style="line-height: 20.7999992370605px; font-size: 16px;"><span style="line-height: 20.7999992370605px;"><font face="microsoft yahei"><b>ps：值得一提的是，</b></font></span></span><span style="font-size: 16px; line-height: 20.7999992370605px;">CSDN将于3月18日在上海举办一场数据库实战峰会，力邀国内外知名数据库牛人分享最前沿的技术成果。更多精彩内容，敬请期待！</span></p>
+</p>
+
+                </div>
+                            </div>
+             	          <h3 class="act-red-tit">已报名参会人员</h3>
+	          <div class="header-list clearfix">
+	           	           	 <a href="http://my.csdn.net/flyingcar009" target="_blank" data-toggle="tooltip" data-placement="auto left" name="fun.tv" mess="其他"><img src="http://avatar.csdn.net/B/5/7/3_flyingcar009.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/itcomputer12" target="_blank" data-toggle="tooltip" data-placement="auto left" name="金色家园" mess="数据科学家"><img src="http://avatar.csdn.net/3/D/2/3_itcomputer12.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/u011601174" target="_blank" data-toggle="tooltip" data-placement="auto left" name="包头盛唐科技有限公司" mess="CTO/CIO/技术副总裁/总工程师"><img src="http://avatar.csdn.net/9/F/D/3_u011601174.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/chenlexh" target="_blank" data-toggle="tooltip" data-placement="auto left" name="外贸1" mess="项目总监"><img src="http://avatar.csdn.net/F/8/E/3_chenlexh.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/LiWeng" target="_blank" data-toggle="tooltip" data-placement="auto left" name="东方海外" mess="测试工程师"><img src="http://avatar.csdn.net/D/F/4/3_liweng.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/xinqi1" target="_blank" data-toggle="tooltip" data-placement="auto left" name="环信" mess="服务器端工程师"><img src="http://avatar.csdn.net/3/1/6/3_xinqi1.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/onlydx" target="_blank" data-toggle="tooltip" data-placement="auto left" name="贵阳营销截拳道网络科技有限公司" mess="开发组长/高级工程师/技术专家"><img src="http://avatar.csdn.net/0/6/D/3_onlydx.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/liangzhu2012" target="_blank" data-toggle="tooltip" data-placement="auto left" name="湘潭华拓数码科技" mess="技术经理"><img src="http://avatar.csdn.net/5/6/6/3_liangzhu2012.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/vtevtdj" target="_blank" data-toggle="tooltip" data-placement="auto left" name="株洲步步高" mess="IT运维经理"><img src="http://avatar.csdn.net/F/3/2/3_vtevtdj.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/yf6688057" target="_blank" data-toggle="tooltip" data-placement="auto left" name="上海缘聚网络科技有限公司" mess="IT运维经理"><img src="http://avatar.csdn.net/9/8/9/3_yf6688057.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/sevenyang7" target="_blank" data-toggle="tooltip" data-placement="auto left" name="四川哇沃科技" mess="运维工程师/系统管理员/网络管理员"><img src="http://avatar.csdn.net/8/2/2/3_sevenyang7.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/panminwen" target="_blank" data-toggle="tooltip" data-placement="auto left" name="上海通方" mess="技术经理"><img src="http://avatar.csdn.net/B/B/1/3_panminwen.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/qq_33788085" target="_blank" data-toggle="tooltip" data-placement="auto left" name="天跃科技" mess="技术总监/研发总监"><img src="http://avatar.csdn.net/D/3/0/3_qq_33788085.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/xxupnge" target="_blank" data-toggle="tooltip" data-placement="auto left" name="深圳前海易连飞宇科技有限公司" mess="架构师"><img src="http://avatar.csdn.net/F/4/F/3_xxupnge.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/caizhiguang" target="_blank" data-toggle="tooltip" data-placement="auto left" name="爱喜软件" mess="技术经理"><img src="http://avatar.csdn.net/6/3/E/3_caizhiguang.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/ncvernal" target="_blank" data-toggle="tooltip" data-placement="auto left" name="小马购车" mess="技术经理"><img src="http://avatar.csdn.net/0/6/4/3_ncvernal.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/qiansg123" target="_blank" data-toggle="tooltip" data-placement="auto left" name="钱曙光" mess="媒体从业者"><img src="http://avatar.csdn.net/B/0/E/3_qiansg123.jpg" alt=""></a>
+	           	           	 <a href="http://my.csdn.net/sinat_27693393" target="_blank" data-toggle="tooltip" data-placement="auto left" name="安徽农业大学" mess="学生"><img src="http://avatar.csdn.net/E/2/3/3_sinat_27693393.jpg" alt=""></a>
+	           	         	          </div>
+	                  </div>
+        <div class="right-side">
+            <div class="right-side">
+	<div class="join-meeting"><strong class="actf18">参会人数：</strong>
+	    <div class="number">
+	        	        <span>5</span>
+	        	        <span>6</span>
+	        	        <span>3</span>
+	        	    </div>
+	    <strong class="actf18">人</strong>
+	</div>
+		<h3 class="act-red-tit">时间地点</h3>
+	<div class="map-wraper">
+	    	    <div class="addr-time" style="margin-top: 15px">
+	        <ul>
+	        		        	    <li>时间：01月28日 20时30分 --  21时30分</li>
+	        		            <li>地点：在线	                
+	            </li>
+	
+	        </ul>
+	    </div>
+	</div>
+	<div class="contact mark">
+	    <h3>
+	        <div class="hot">联系我们</div>
+	    </h3>
+	    <p>
+	        <span class="contacter">如果想在CSDN会议平台发布会议，请与我们联系：</span>
+	        <span class="mark-contacter">联系人：夏梦竹</span>
+	        电话：summer8601<br>
+	        邮箱：xiamz@csdn.net	    </p>
+	</div>
+	</div>
+<!--频道内页右侧窗口AdForward Begin:-->
+<script type="text/javascript" ads-src="http://csdnim.qtmojo.com/main/s?user=csdn|huiyi|pip&db=csdnim&border=0&local=yes&js=ie" src="http://creatim.qtmojo.cn/td/AllyesDeliver.min.js" charset="gbk"></script>
+<!--AdForward End-->        </div>
+    </div>
+</div>
+	<script src="http://passport.csdn.net/content/loginbox/login.js" type="text/javascript"></script>
+	<script src="http://huiyi.csdn.net/themes/activity/cat_default/js/jquery.cookie.js"></script>
+	<script data-main="http://huiyi.csdn.net/themes/activity/cat_default/js/configs/charge_active_info_config.js" src="http://huiyi.csdn.net/themes/activity/cat_default/js/require.js"></script>
+<script>
+      var $headers = $( '.header-list' ).find( 'a' );
+      $headers.each( function ( i, item ) {
+        $( item ).tooltip( {
+          html: true,
+          title: function () {
+            var $item = $( this );
+            return '<span class="name">'+ $item.attr( 'name' ) +'</span><span class="mess">'+ $item.attr( 'mess' ) +'</span>'
+          }
+        } );
+      } );
+
+
+      
+      function check_num(){
+        var arrObj = new Array();
+        if($(".goods_num").size() > 0){
+        	var num_count = 0;
+    		$(".goods_num").each(function(){
+    			arrObj.push(parseInt($(this).val()));
+    			num_count = num_count + parseInt($(this).val());
+    		});
+          	
+    		if(num_count == 0){
+				alert('商品选择数量为空');
+				return false;
+        	}else{
+//             	alert($.cookie('arrObj'));
+				var currentName = csdn.getCookie('UserName');
+				if(currentName == null || currentName == '' || !currentName){
+					csdn.showLogin(function(){
+						$("#goods_submit_button").trigger('click');
+					});
+					return false;
+				}else{
+					var fee = parseInt($(".count_js").val());
+					$.cookie('tnum',arrObj.toString());
+					$.cookie('tfee',fee);
+				}
+            }
+        }
+      }
+    </script>
+    <div class="footer">
+      <script>document.write('<script type="text/javascript" src="//csdnimg.cn/pubfooter/js/publib_footer.js?' + (new Date()/300000|0) + '"></'+'script>');</script>
+    </div>
+<script id="csdn-toolbar-id" src="http://c.csdnimg.cn/public/common/toolbar/js/toolbar.js" prod="space" btnId="header_notice_num" wrapId="note1" count="5" subCount="5" type="text/javascript"></script>
+    <div style="display: none;">
+    	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_2921683'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/stat.php%3Fid%3D2921683%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+    <div style="display:none;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5752922'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s17.cnzz.com/stat.php%3Fid%3D5752922%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></div>  </body>
+</html>

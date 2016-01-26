@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>Learning AngularJS -  CSDN学院 - CSDN.NET</title>
+<meta name="keywords" content="angularjs,前端开发,前端架构,编程语言-框架,d3,其他,编程语言/框架" />
+<meta name="description" content="如果你正在寻找看起来不错的动态Web应用程序，那么AngularJS是你不错的选择。您可以通过AngularJS在任何你需要的时间创建自定义的Web应用程序。它的可扩展性和模块化的架构，可以很轻松的帮助您创建功能强大的Web应用程序。本课程将教你一切关于可扩展性和可维护性的应用程序的正确方式。" />
+<link rel="stylesheet" href="http://c.csdnimg.cn/public/common/toolbar/css/index.css">
+<link rel="stylesheet" href="http://csdnimg.cn/public/common/libs/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="http://csdnimg.cn/public/static/css/avatar.css">
+<link rel="stylesheet" href="http://csdnimg.cn/public/themes/default/css/btn.css">
+<link rel="stylesheet" href="http://csdnimg.cn/public/static/css/pagination.css">
+<link rel="stylesheet" href="http://csdnimg.cn/public/themes/default/css/common.css">
+<link rel="stylesheet" href="http://c.csdnimg.cn/public/static/css/nav.css">
+<link rel="stylesheet" href="http://csdnimg.cn/public/themes/default/css/icon.css">
+<link href="http://csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
+
+<link rel="stylesheet" href="http://edu.csdn.net/css/common.css">
+<link rel="stylesheet" href="http://edu.csdn.net/css/mod_nav.css">
+<link rel="stylesheet" href="http://edu.csdn.net/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="http://edu.csdn.net/css/main_page_menu.css">
+<link rel="stylesheet" type="text/css" href="http://edu.csdn.net/css/shoppingCar_mini.css">
+<script src="http://edu.csdn.net/js/libs/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://edu.csdn.net/js/bootstrap.min.js" type="text/javascript"></script>
+<!-- [if lt IE 9]-->
+<script src="http://edu.csdn.net/js/libs/html5shiv.min.js"></script>
+<!-- [endif]-->
+
+<script> 
+window.eduCallCenter = true; 
+ </script> 
+<link href="http://csdnimg.cn/comm_ask/css/ask_float_block.css" rel="stylesheet" type="text/css" /> 
+<script type="text/javascript" src="http://csdnimg.cn/comm_ask/js/libs/wmd.js"></script> 
+<script type="text/javascript" src="http://csdnimg.cn/comm_ask/js/libs/showdown.js"></script> 
+<script type="text/javascript" src="http://csdnimg.cn/comm_ask/js/libs/prettify.js"></script>
+<script type="text/javascript" src="http://csdnimg.cn/comm_ask/js/apps/ask_float_block.js"></script>
+<script src="http://cart.csdn.net/js/cart_jsonp.js"></script>
+
+<script language="javascript" type="text/javascript" src="http://edu.csdn.net/js/formvalidator.js" charset="UTF-8"></script>
+<script language="javascript" type="text/javascript" src="http://edu.csdn.net/js/formvalidatorregex.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="http://edu.csdn.net/css/form_check.css" />
+
+<!-- kindeditor 兼容ie11 开始-->
+<link rel="stylesheet" href="http://edu.csdn.net/js/kindeditor/themes/default/kindeditor_11.css" />
+<!-- kindeditor 兼容ie11 结束-->
+
+</head>
+<body>
+	<script id="toolbar-tpl-scriptId" skin="black" fixed="true" src="http://c.csdnimg.cn/public/common/toolbar/js/html.js" type="text/javascript"></script>
+	<div class="csdn-nav navbar navbar-static-top nav-wraper">
+		<div class="container">
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li >
+						<a href="http://edu.csdn.net/">首页</a>
+					</li>
+					<li class="active sub_menu">
+						<a href="http://edu.csdn.net/courses">课程</a>
+												<div class="sub_menu_list">
+														<dl>
+                                <dt><a href="/courses/o230">移动开发</a></dt>
+																<dd>
+																		<a href="/courses/o230_s273">手游开发</a>																		<a href="/courses/o230_s287">iOS</a>																		<a href="/courses/o230_s329">微信开发</a>																		<a href="/courses/o230_s330">Swift</a>																		<a href="/courses/o230_s332">HTML 5</a>																		<a href="/courses/o230_s333">Android</a>																		<a href="/courses/o230_s335">移动应用</a>																		<a href="/courses/o230_s337">移动运营</a>																		<a href="/courses/o230_s338">其他</a>																		<a href="/courses/o230_s1602">移动测试</a>																		<span style="padding-right: 16px;color:#999;">Windows Phone</span>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o280">编程语言/框架</a></dt>
+																<dd>
+																		<a href="/courses/o280_s281">C/C++</a>																		<a href="/courses/o280_s348">Java</a>																		<a href="/courses/o280_s350">C#</a>																		<a href="/courses/o280_s351">Objective-C</a>																		<a href="/courses/o280_s354">汇编语言</a>																		<a href="/courses/o280_s355">Python</a>																		<a href="/courses/o280_s359">.NET</a>																		<a href="/courses/o280_s360">Go语言</a>																		<a href="/courses/o280_s362">其他</a>																		<a href="/courses/o280_s781">Qt</a>																		<span style="padding-right: 16px;color:#999;">VB</span>																		<span style="padding-right: 16px;color:#999;">Delphi</span>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o301">软件研发</a></dt>
+																<dd>
+																		<a href="/courses/o301_s302">敏捷开发</a>																		<a href="/courses/o301_s303">软件设计</a>																		<a href="/courses/o301_s304">软件测试</a>																		<a href="/courses/o301_s305">研发管理</a>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o306">系统/网络</a></dt>
+																<dd>
+																		<a href="/courses/o306_s307">Linux</a>																		<a href="/courses/o306_s308">Windows</a>																		<a href="/courses/o306_s310">Mac OS</a>																		<a href="/courses/o306_s311">系统集成</a>																		<a href="/courses/o306_s312">网络技术</a>																		<a href="/courses/o306_s313">路由协议</a>																		<a href="/courses/o306_s315">信息安全</a>																		<a href="/courses/o306_s316">其他</a>																		<span style="padding-right: 16px;color:#999;">UNIX</span>																		<span style="padding-right: 16px;color:#999;">无线网络</span>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o317">云计算/大数据</a></dt>
+																<dd>
+																		<a href="/courses/o317_s318">Hadoop</a>																		<a href="/courses/o317_s320">OpenStack</a>																		<a href="/courses/o317_s321">Docker</a>																		<a href="/courses/o317_s323">Spark</a>																		<a href="/courses/o317_s324">云计算基础架构</a>																		<a href="/courses/o317_s325">虚拟化技术</a>																		<a href="/courses/o317_s326">云平台</a>																		<a href="/courses/o317_s328">大数据</a>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o319">数据库</a></dt>
+																<dd>
+																		<a href="/courses/o319_s322">Oracle</a>																		<a href="/courses/o319_s327">MySQL</a>																		<a href="/courses/o319_s331">SQL Server</a>																		<a href="/courses/o319_s336">Access</a>																		<a href="/courses/o319_s339">DB2</a>																		<a href="/courses/o319_s349">NoSQL</a>																		<a href="/courses/o319_s352">Mongo DB</a>																		<a href="/courses/o319_s356">Hbase</a>																		<a href="/courses/o319_s358">数据库管理</a>																		<a href="/courses/o319_s361">其他</a>																		<a href="/courses/o319_s1520">BI</a>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o340">游戏开发</a></dt>
+																<dd>
+																		<a href="/courses/o340_s341">Cocos2d-x</a>																		<a href="/courses/o340_s342">Unity3D</a>																		<a href="/courses/o340_s343">Flash</a>																		<a href="/courses/o340_s344">开发工具</a>																		<a href="/courses/o340_s345">开发技巧</a>																		<a href="/courses/o340_s346">3D游戏</a>																		<span style="padding-right: 16px;color:#999;">游戏运营</span>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o363">办公/设计</a></dt>
+																<dd>
+																		<a href="/courses/o363_s365">Dreamweaver</a>																		<a href="/courses/o363_s376">Office</a>																		<a href="/courses/o363_s388">交互设计</a>																		<a href="/courses/o363_s389">平面设计</a>																		<span style="padding-right: 16px;color:#999;">Axure</span>																		<span style="padding-right: 16px;color:#999;">WPS</span>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o364">Web开发</a></dt>
+																<dd>
+																		<a href="/courses/o364_s366">HTML/CSS</a>																		<a href="/courses/o364_s367">PHP</a>																		<a href="/courses/o364_s368">JavaScript</a>																		<a href="/courses/o364_s373">浏览器技术</a>																		<a href="/courses/o364_s375">其他</a>																		<span style="padding-right: 16px;color:#999;">ASP</span>																		<span style="padding-right: 16px;color:#999;">XML/XSL</span>																		<span style="padding-right: 16px;color:#999;">Ruby/Rails</span>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o377">硬件/嵌入式</a></dt>
+																<dd>
+																		<a href="/courses/o377_s380">智能硬件</a>																		<a href="/courses/o377_s383">驱动/内核开发</a>																		<a href="/courses/o377_s384">单片机/工控</a>																		<a href="/courses/o377_s386">WinCE</a>																		<a href="/courses/o377_s387">嵌入式Linux</a>																		<a href="/courses/o377_s392">物联网技术</a>																		<a href="/courses/o377_s393">其他</a>																		<span style="padding-right: 16px;color:#999;">Arduino</span>																		<span style="padding-right: 16px;color:#999;">体感技术</span>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o391">大学课程</a></dt>
+																<dd>
+																		<a href="/courses/o391_s394">数据结构</a>																		<a href="/courses/o391_s396">算法基础</a>																		<a href="/courses/o391_s397">计算机网络</a>																		<a href="/courses/o391_s985">其他</a>																		<a href="/courses/o391_s1242">操作系统</a>																		<span style="padding-right: 16px;color:#999;">计算机导论</span>																		<span style="padding-right: 16px;color:#999;">软件工程</span>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o399">认证考试</a></dt>
+																<dd>
+																		<a href="/courses/o399_s402">华为认证</a>																		<a href="/courses/o399_s403">思科认证</a>																		<a href="/courses/o399_s404">微软认证</a>																		<a href="/courses/o399_s405">项目管理</a>																		<a href="/courses/o399_s407">计算机等级考试</a>																		<a href="/courses/o399_s681">其他</a>																		<a href="/courses/o399_s1373">软考</a>																		<span style="padding-right: 16px;color:#999;">Linux认证</span>																		<span style="padding-right: 16px;color:#999;">H3C认证</span>																	</dd>
+															</dl>
+														<dl>
+                                <dt><a href="/courses/o408">企业IT</a></dt>
+																<dd>
+																		<a href="/courses/o408_s409">应聘面试</a>																		<a href="/courses/o408_s410">团队管理</a>																		<a href="/courses/o408_s411">电子商务</a>																		<a href="/courses/o408_s413">ERP</a>																		<a href="/courses/o408_s415">其他</a>																		<a href="/courses/o408_s1634">管理软件</a>																		<span style="padding-right: 16px;color:#999;">CRM</span>																		<span style="padding-right: 16px;color:#999;">BPM</span>																	</dd>
+															</dl>
+													</div>
+											</li>
+                    <li >
+                        <a href="http://edu.csdn.net/combo">套餐</a>
+                    </li>
+					<li >
+						<a href="http://edu.csdn.net/lecturer">讲师/机构</a>
+					</li>
+                    <li >
+                        <a href="http://edu.csdn.net/huiyiCourse">公开课</a>
+                    </li>
+					<li >
+						<a target="_blank" href="http://edu.csdn.net/app">移动客户端</a>
+					</li>
+					<li  class="nav_my_class" style="cursor: pointer" onclick="window.location.href='http://edu.csdn.net/lecturer/course_list'">
+						<img src="http://edu.csdn.net/images/nav_shopping_book.png">我的学院
+					</li>
+					<li class="edu_cart">
+						<div id="mini_cart_show"></div>
+					</li>
+					<li class="course_search">
+						                        <form method="get" action="http://edu.csdn.net/search" class="course_search_form"><input type="text"
+                              placeholder="输入搜索关键词" name="keywords" value="" class="course_input" autocomplete="off">
+							<input type="hidden" name="type" value="0" >
+							<input type="submit" value="" class="course_submit">
+                        </form> 
+			         </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script>
+		cart.getMiNiHtml();
+	</script>
+<link rel="stylesheet" href="http://csdnimg.cn/public/themes/default/css/common.css">
+<link rel="stylesheet" href="http://edu.csdn.net/css/common_video.css"/>
+<link rel="stylesheet" href="http://edu.csdn.net/css/edu_curriculum_view.css"/>
+<div class="main clearfix">
+	<link rel="stylesheet" type="text/css" href="http://edu.csdn.net/css/quick_pay.css">
+<script src="http://edu.csdn.net/js/qrcode.js"></script>
+<script src="http://edu.csdn.net/js/quick_pay2.js"></script>
+
+<div class="layerWindow layerWindowTab">
+	<div class="layerContent">
+	<div class="titlediv">
+	<h1><span id="product_title">课程名称读取中</span></h1>
+	<a href="" hidenFocus class="close">&times</a></div>
+	<div class="mainContent">
+	<div class="payInfortitle clearfix">
+	<!--  <span class="title"> CSDN课程订单：<em>66066</em></span> -->
+	<span class="gray">收款方：江苏知之为计算机有限公司 </span>
+	<span class="paymoney" id="product_price">价格读取中 </span></div>
+	<div class="payerweima clearfix">
+	<div class="payleft"><span>支付宝支付 </span>
+	<div class="erweima" id="alipay_qcode">二维码加载中...</div>
+	</div>
+	<div class="payright"><span>微信支付</span>
+	<div class="erweima" id="weixin_qcode">二维码加载中...</div>
+	</div>
+	</div>
+	<p class="infors clearfix">
+		<span>支付成功后页面自动跳转，请不要在支付过程中关闭窗口。</span>
+	</p>
+	</div>
+	</div>
+</div>
+
+	<div class="edu_video_nav">
+        <li class="edu_crumbs">
+        	<a href="http://edu.csdn.net/courses">课程</a>>
+        	        		<a href="http://edu.csdn.net/courses/o280">编程语言/框架</a>>
+        		<a href="http://edu.csdn.net/courses/o280_s362">其他</a>>
+        	        	Learning AngularJS        </li>
+        <li class="edu_video_title clearfix">
+            <h3 class="edu_video_course_name">Learning AngularJS</h3>
+            <div class="edu_video_ad_warp" id="edu_video_ad_warp" onmouseover="clearInterval(edu_ad_timer)" onmouseout="edu_ad_timer=setInterval(mar,30)">
+                <span class="tracking-ad" data-mod="popu_83" >                                        	<span class="edu_video_ad" id="edu_video_ad" title="CSDN学院周年礼，折服你没道理--速来领取"> 
+                			<a href="http://edu.csdn.net/yearPromotion" target="_blank">CSDN学院周年礼，折服你没道理--速来领取</a>
+                		</span>
+               			<span id="edu_video_ad_add" class="edu_video_ad_add"  title="CSDN学院周年礼，折服你没道理--速来领取"></span>
+                                    </span>            </div>
+        </li>
+    </div>
+    <!-- 播放器 -->
+    <div class="player_content">
+        <div id="player_container"></div>
+        <div id="player_share"><span class="baidu_logo"></span><span class="baidu_des">由百度提供技术支持</span>
+			<div class="share_icon clearfix ">
+                <span class="num_des" style="background-image:none;padding-left:0; float:right;">人学习</span>
+                <span class="num blue" style="background-image:none;padding-left:0; float:right;" id="totalcont">11237</span>
+                <span class="fenge">|</span>
+                <span class="num_des" style="background-image:none;padding-left:0; float:right;">
+                	<span class="blue">27</span>课时
+                	[已完结]                	<span class="blue">3:00:28</span>
+                </span>
+                <span class="fenge">|</span>
+                <i style="float:right" id="erweima_btn" class="fa fa-qrcode">&nbsp;关注&nbsp;&nbsp;</i>
+                <span class="fenge">|</span>
+                <!--百度分享 begin-->
+                <div style="display:inline-block; float:right" class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1437548555088"><a data-cmd="more" class="bds_more" href="#">分享&nbsp;</a></div>
+                <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                <!--百度分享 end-->
+                <span class="fenge">|</span>
+                <i style="float:right" class="fa fa-heart" id="show_collect" onclick="check_collect();"><span>&nbsp;收藏&nbsp;&nbsp;</span></i>
+				<span class="fenge">|</span>
+				<i class="fa fa-download" style="float:right" id="app_down"><span>&nbsp;学院APP&nbsp;&nbsp;</span></i>
+                <div class="erweima erweima_hide" style="display: none;">
+                    <img src="/images/erweima.jpg" id="subscribe_erweima" data-src="" style="width:258px;height:258px;">
+                    <p>扫描微信二维码<br>精彩活动、课程更新抢先知</p>
+                </div>
+				<div class="erweima erweima_download" style="display: none">
+					<img width="260" src="http://edu.csdn.net/images/weix.png">
+					<p>下载客户端，离线视频任您学</p>
+				</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 播放列表 -->
+    <div class="toggle_player_list"><i class="fa fa-angle-right"></i></div>
+    <div class="player_list">
+        <div class="player_list_Tittle">课程目录</div>
+        <div id="player_list_warp" class="clearfix">
+            <div id="player_list_content">
+            	            		            		            					                         		            						                <div class="course_section">
+			                				                    	<div class="course_section_title">第一章：初学AngularJS</div>
+			                    			                    
+		                    			                    					                    		<ul class="clearfix blue">
+				                        <li class="left" video="1857,28878">
+				                        	<span class="course_list_title">1.&nbsp;使用简单的网页并完成一个基本的angular应用</span>
+				                        					                        		<span class="free_icon">(免费)</span>
+				                        					                        </li>
+				                        <li class="right">4:49</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28879">
+				                        	<span class="course_list_title">2.&nbsp;有关控制器的知识</span>
+				                        					                        		<span class="free_icon">(免费)</span>
+				                        					                        </li>
+				                        <li class="right">5:48</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28880">
+				                        	<span class="course_list_title">3.&nbsp;四种不同控件在Angular中通过控制器整合在一起的</span>
+				                        					                        		<span class="free_icon">(免费)</span>
+				                        					                        </li>
+				                        <li class="right">10:52</li>
+				                        </ul>
+				                    			                    			                </div>
+			             		                         		            						                <div class="course_section">
+			                				                    	<div class="course_section_title">第二章：学习使用ng-repeat</div>
+			                    			                    
+		                    			                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28881">
+				                        	<span class="course_list_title">1.&nbsp;如何在Angular中处理数组和对象</span>
+				                        					                        </li>
+				                        <li class="right">6:22</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28882">
+				                        	<span class="course_list_title">2.&nbsp;嵌套控制器</span>
+				                        					                        </li>
+				                        <li class="right">5:12</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28883">
+				                        	<span class="course_list_title">3.&nbsp;更深入地探讨嵌套控制器的应用</span>
+				                        					                        </li>
+				                        <li class="right">8:06</li>
+				                        </ul>
+				                    			                    			                </div>
+			             		                         		            						                <div class="course_section">
+			                				                    	<div class="course_section_title">第三章：设置Angular应用套件，其中包含服务器</div>
+			                    			                    
+		                    			                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28884">
+				                        	<span class="course_list_title">1.&nbsp;yeoman全部设置</span>
+				                        					                        </li>
+				                        <li class="right">5:47</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28885">
+				                        	<span class="course_list_title">2.&nbsp;建一个待办事项列表（to-do list）应用</span>
+				                        					                        </li>
+				                        <li class="right">8:24</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28886">
+				                        	<span class="course_list_title">3.&nbsp;如何使用angular的$http功能向服务器发出一些基本请求</span>
+				                        					                        </li>
+				                        <li class="right">5:37</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28887">
+				                        	<span class="course_list_title">4.&nbsp;允许用户删除待办事项</span>
+				                        					                        </li>
+				                        <li class="right">6:19</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28888">
+				                        	<span class="course_list_title">5.&nbsp;完成对REST接口的控制</span>
+				                        					                        </li>
+				                        <li class="right">6:53</li>
+				                        </ul>
+				                    			                    			                </div>
+			             		                         		            						                <div class="course_section">
+			                				                    	<div class="course_section_title">第四章：组件化</div>
+			                    			                    
+		                    			                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28889">
+				                        	<span class="course_list_title">1.&nbsp;Angular提供商使用的所有不同设备来模块化应用程序</span>
+				                        					                        </li>
+				                        <li class="right">9:20</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28890">
+				                        	<span class="course_list_title">2.&nbsp;指令</span>
+				                        					                        </li>
+				                        <li class="right">7:58</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28891">
+				                        	<span class="course_list_title">3.&nbsp;如何使用现有todo中的现有代码，以及如何将它转为指令</span>
+				                        					                        </li>
+				                        <li class="right">6:42</li>
+				                        </ul>
+				                    			                    			                </div>
+			             		                         		            						                <div class="course_section">
+			                				                    	<div class="course_section_title">第五章：关于routing</div>
+			                    			                    
+		                    			                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28892">
+				                        	<span class="course_list_title">1.&nbsp;关于routing的介绍</span>
+				                        					                        </li>
+				                        <li class="right">9:57</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28893">
+				                        	<span class="course_list_title">2.&nbsp;解析系统</span>
+				                        					                        </li>
+				                        <li class="right">4:08</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28894">
+				                        	<span class="course_list_title">3.&nbsp;添加几个事件监听器</span>
+				                        					                        </li>
+				                        <li class="right">5:06</li>
+				                        </ul>
+				                    			                    			                </div>
+			             		                         		            						                <div class="course_section">
+			                				                    	<div class="course_section_title">第六章：自动化测试</div>
+			                    			                    
+		                    			                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28895">
+				                        	<span class="course_list_title">1.&nbsp;初识单元测试</span>
+				                        					                        </li>
+				                        <li class="right">7:06</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28896">
+				                        	<span class="course_list_title">2.&nbsp;为这个简单的应用程序构建一些单元测试。</span>
+				                        					                        </li>
+				                        <li class="right">7:34</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28897">
+				                        	<span class="course_list_title">3.&nbsp;构建端到端测试</span>
+				                        					                        </li>
+				                        <li class="right">8:34</li>
+				                        </ul>
+				                    			                    			                </div>
+			             		                         		            						                <div class="course_section">
+			                				                    	<div class="course_section_title">第七章：如何整合那些为Bootstrap、D3和jQuery编写的第三方组件</div>
+			                    			                    
+		                    			                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28898">
+				                        	<span class="course_list_title">1.&nbsp;如何用angular指令封装bootstrap模型构件</span>
+				                        					                        </li>
+				                        <li class="right">8:21</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28899">
+				                        	<span class="course_list_title">2.&nbsp;如何封装D3</span>
+				                        					                        </li>
+				                        <li class="right">9:59</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28900">
+				                        	<span class="course_list_title">3.&nbsp;如何与jQuery整合</span>
+				                        					                        </li>
+				                        <li class="right">8:28</li>
+				                        </ul>
+				                    			                    			                </div>
+			             		                         		            						                <div class="course_section">
+			                				                    	<div class="course_section_title">第八章：总结</div>
+			                    			                    
+		                    			                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28901">
+				                        	<span class="course_list_title">1.&nbsp;轻松实现Angular Bootstrap和bootstrap库的动态轮播</span>
+				                        					                        </li>
+				                        <li class="right">9:35</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28902">
+				                        	<span class="course_list_title">2.&nbsp;创建一些国际化的应用程序</span>
+				                        					                        </li>
+				                        <li class="right">4:53</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28903">
+				                        	<span class="course_list_title">3.&nbsp;用过去流行的方法编写验证程序</span>
+				                        					                        </li>
+				                        <li class="right">8:50</li>
+				                        </ul>
+				                    			                    		                    					                    		<ul class="clearfix ">
+				                        <li class="left" video="1857,28904">
+				                        	<span class="course_list_title">4.&nbsp;如何参与angular社区以及进行更广泛的web开发</span>
+				                        					                        </li>
+				                        <li class="right">6:48</li>
+				                        </ul>
+				                    			                    			                </div>
+			             		             	                        </div>
+            <div id="player_list_scroll_warp">
+                <div id="player_list_scroll"></div>
+            </div>
+        </div>
+        <div class="player_list_buy">
+            <span class="player_list_buy_price">
+            						￥129.00                             </span>
+            			                            <span class="player_list_buy_bt cklayer" data-layer="layerWindowTab" data-zid="1857" data-type="1" onclick="buyNow(1750)">立即购买</span>
+            	<span class="player_list_buy_car buy_car shiting" id="gouwuche" onclick="addCart()">加入购物车</span>
+                                </div>
+
+    </div>
+    
+    <div class="left-silder">
+    	<!--套餐组合购买-->
+    	        
+        <!-- 课程介绍、课程目录、评价 -->
+        <div class="panel panel-default class_outline_panel">
+            <div class="panel-heading">
+                <div class="clearfix">
+                    <ul class="nav nav-tabs pull-left">
+                        <li class="active"><a href="#">课程介绍</a></li>
+                        <li ><a href="#">课程目录</a></li>
+                        <li><a href="#">课程评价</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="panel-body class_jieshao_panel_body">
+                <ul class="catalog_cont">
+                    <li class="catalog_cont_title">
+                        <span class="desc_strong">【课程类型】</span><span class="blue" style="display: inline-block;margin-right:20px ">技术教程</span>
+                        <span class="desc_strong">【难度级别】</span><span class="blue" style="display: inline-block;margin-right:20px ">高级</span>
+                        <span class="desc_strong">【适合人群】</span><span class="blue" style="display: inline-block;margin-right:20px ">所有人</span>
+                    </li>
+                    <li><span class="desc_strong">【课程介绍】</span> <br/>如果你正在寻找看起来不错的动态Web应用程序，那么AngularJS是你不错的选择。您可以通过AngularJS在任何你需要的时间创建自定义的Web应用程序。它的可扩展性和模块化的架构，可以很轻松的帮助您创建功能强大的Web应用程序。本课程将教你一切关于可扩展性和可维护性的应用程序的正确方式。</li>
+                    	                    <li>
+	                        <span class="desc_strong">【课程目标】</span> <br/>创建简单和功能强大的Web应用程序和学会使你的代码重用
+增加资源，指示，服务和工厂，以提高你的应用程序的效率
+得到一个惊人的互动通过第三方组件，如d3.js为你的应用程序的可视化，并引导
+使用CSS和动画，让你的应用程序看起来不错	                    </li>
+	                	                                    	<li> <span class="desc_strong">【课程计划】</span> <br/>授课讲师：Jack Herrington
+Jack Herrington是一位在谷歌提出D3和AngularJS的AngularJS开发者。他已经写了六本书和上百篇文章。</li>
+                                    </ul>
+            </div>
+            
+            <div class="panel-body class_outline_panel_body">
+            	            		            					                         						                <h2 class="class_outline_name">
+			              					                    	第一章：初学AngularJS			                    			                    				                    <div class="class_detail_name" style="margin-top:13px;">
+					                    <span class="class_num">1</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28878">使用简单的网页并完成一个基本的angular应用</a>
+					                    					                    	<img src="/images/class_free_logo.png" class="class_free_logo">
+														                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">4:49</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28878" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="margin-top:13px;">
+					                    <span class="class_num">2</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28879">有关控制器的知识</a>
+					                    					                    	<img src="/images/class_free_logo.png" class="class_free_logo">
+														                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">5:48</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28879" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="margin-top:13px;">
+					                    <span class="class_num">3</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28880">四种不同控件在Angular中通过控制器整合在一起的</a>
+					                    					                    	<img src="/images/class_free_logo.png" class="class_free_logo">
+														                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">10:52</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28880" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    			                </h2>
+			              		                         						                <h2 class="class_outline_name">
+			              					                    	第二章：学习使用ng-repeat			                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">1</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28881">如何在Angular中处理数组和对象</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">6:22</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28881" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">2</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28882">嵌套控制器</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">5:12</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28882" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">3</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28883">更深入地探讨嵌套控制器的应用</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">8:06</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28883" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    			                </h2>
+			              		                         						                <h2 class="class_outline_name">
+			              					                    	第三章：设置Angular应用套件，其中包含服务器			                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">1</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28884">yeoman全部设置</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">5:47</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28884" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">2</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28885">建一个待办事项列表（to-do list）应用</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">8:24</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28885" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">3</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28886">如何使用angular的$http功能向服务器发出一些基本请求</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">5:37</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28886" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">4</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28887">允许用户删除待办事项</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">6:19</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28887" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">5</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28888">完成对REST接口的控制</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">6:53</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28888" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    			                </h2>
+			              		                         						                <h2 class="class_outline_name">
+			              					                    	第四章：组件化			                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">1</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28889">Angular提供商使用的所有不同设备来模块化应用程序</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">9:20</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28889" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">2</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28890">指令</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">7:58</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28890" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">3</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28891">如何使用现有todo中的现有代码，以及如何将它转为指令</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">6:42</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28891" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    			                </h2>
+			              		                         						                <h2 class="class_outline_name">
+			              					                    	第五章：关于routing			                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">1</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28892">关于routing的介绍</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">9:57</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28892" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">2</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28893">解析系统</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">4:08</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28893" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">3</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28894">添加几个事件监听器</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">5:06</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28894" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    			                </h2>
+			              		                         						                <h2 class="class_outline_name">
+			              					                    	第六章：自动化测试			                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">1</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28895">初识单元测试</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">7:06</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28895" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">2</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28896">为这个简单的应用程序构建一些单元测试。</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">7:34</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28896" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">3</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28897">构建端到端测试</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">8:34</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28897" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    			                </h2>
+			              		                         						                <h2 class="class_outline_name">
+			              					                    	第七章：如何整合那些为Bootstrap、D3和jQuery编写的第三方组件			                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">1</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28898">如何用angular指令封装bootstrap模型构件</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">8:21</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28898" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">2</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28899">如何封装D3</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">9:59</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28899" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">3</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28900">如何与jQuery整合</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">8:28</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28900" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    			                </h2>
+			              		                         						                <h2 class="class_outline_name">
+			              					                    	第八章：总结			                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">1</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28901">轻松实现Angular Bootstrap和bootstrap库的动态轮播</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">9:35</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28901" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">2</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28902">创建一些国际化的应用程序</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">4:53</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28902" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">3</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28903">用过去流行的方法编写验证程序</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">8:50</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28903" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    				                    <div class="class_detail_name" style="">
+					                    <span class="class_num">4</span>
+					                    <a target="_blank" href="http://edu.csdn.net/course/detail/1857/28904">如何参与angular社区以及进行更广泛的web开发</a>
+					                    				                        <div class="class_oprea">
+				                        					                        			
+				                        		<span class="class_time" title="时长"><span class="blue">6:48</span></span>
+				                        		<a href="http://edu.csdn.net/course/detail/1857/28904" title="播放"><img src="/images/class_open_gray.png"></a>
+				                        					                        </div>
+				                    </div>
+				                    			                    			                </h2>
+			              		             		                         
+            </div>
+            <!-- 评价 -->
+            <div class="panel-body class_pingjia_panel_body class_pingjia_panel">
+                <div class="pannel_pingjia_opear">
+                <input id="course_id" type="hidden" value="1857">
+				<input id="comment_type_max_page" type="hidden" value="0">
+				<input id="comment_type_current_page" type="hidden" value="1">
+				<input id="comment_type" type="hidden" value="0">
+				
+                    <div class="pingjia_desc" data-type="0"><img src="/images/pingjia_all.png" width="32" height="32">
+
+                        <div class="pingjia_num">全部评价（<span class="blue">0</span>）</div>
+                    </div>
+                    <div class="pingjia_desc" data-type="1"><img src="/images/pingjia_hao.png" width="32" height="32">
+
+                        <div class="pingjia_num">好评（<span class="blue">0</span>）</div>
+                    </div>
+                    <div class="pingjia_desc" data-type="2"><img src="/images/pingjia_zhong.png" width="32" height="32">
+
+                        <div class="pingjia_num">中评（<span class="blue">0</span>）</div>
+                    </div>
+                    <div class="pingjia_desc" data-type="3"><img src="/images/pingjia_cha.png" width="32" height="32">
+
+                        <div class="pingjia_num">差评（<span class="blue">0</span>）</div>
+                    </div>
+                    <a class="pingjia_edit blue"  href="http://edu.csdn.net/course/comment/1857" rel="http://edu.csdn.net/course/ajComment/1857">
+                	发表评价<img src="/images/pingjia_pen.png"></a>
+                	</div>
+                            </div>
+        </div>
+	</div>
+
+    <!-- 右侧讲师信息和推荐课程 -->
+    <div class="right-silder">
+        <div class="mod_teacher_introduction_info">
+            <div class="teacher_introduction_info_box">
+                <div class="introduction">
+                    <dl class="intro-info">
+                        <div class="img">
+                        	<a href="http://edu.csdn.net/lecturer/733" target="_blank">
+                        		<img src="http://img.bss.csdn.net/201601041543557474.jpg" alt="PACKT" title="PACKT" class="csdn-avatar250">
+                        	</a>
+                        </div>
+                        <dt>
+                        <a target="_blank" href="http://edu.csdn.net/lecturer/733">PACKT</a>
+                                                <dd class="teacher_introduction_dd_last"><span>2</span>课程<span>19084</span>学员</dd>
+                        <div class="info-text">本账号为Packt Publishing机构讲师账号。</div>
+                    </dl>
+                    	                    <div class="about_jigou">
+	                        <div class="about_jigou_title">
+	                        	<span class="jigou_desc">所属机构：</span><a href="http://edu.csdn.net/agency/index/171">PACKT</a>
+	                        </div>
+	                        <div class="about_jigou_img"><a target="_blank" href="http://edu.csdn.net/agency/index/171"><img src="http://img.bss.csdn.net/201601041544184607.jpg" width="116" height="75"></a></div>
+	                    </div>
+	                                </div>
+            </div>
+          </div>
+
+        <!-- 推荐课程star -->
+                <div class="boutique-curr-box">
+            <div class="boutique-curr"><h3>为您推荐课程</h3>
+				<span class="tracking-ad" data-mod="popu_84" >                                	<div class="cutt-column clearfix">
+                		<div class="cutt-column_left">
+                			<a target="_blank" href="/course/detail/1848">
+                				<div class="course_logobg_dujia"></div>
+                				<img src="http://img.bss.csdn.net/201601041552245136.jpg" alt="Rapid D3.js" title="Rapid D3.js" width="114" height="76">
+                			</a>
+                		</div>
+	                    <div class="cutt-column_right">
+	                        <li class="cutt-column_right_first"><a href="/course/detail/1848">Rapid D3.js</a></li>
+	                        <li class="cutt-column_right_second">讲师：PACKT <span style="float: right"><span class="blue">22</span>课时</span></li>
+	                    </div>
+                    </div>
+                                  </span>            </div>
+        </div>
+            </div>
+</div>
+
+<script type="text/javascript" src="http://csdnimg.cn/pubfooter/js/publib_footer.js"></script>
+<script type="text/javascript" src="http://c.csdnimg.cn/public/common/toolbar/js/toolbar.js"></script>
+<div class="pop_edit_yw popup_buycar">
+    <div class="context">
+        <form id="form" nodeType="form-popup" class="form">
+            <div class="content_buycar"><span class="close"></span>
+            <a href="http://edu.csdn.net/course/detail/1857" class="goon_buy">继续挑选课程</a><a href="http://cart.csdn.net/"   class="to_buy">去结算</a>
+            </div>
+        </form>
+    </div>
+    <div class="success"></div>
+</div>
+<!--视频start-->
+<script>
+    var lesson_id = "28878";
+    var course_id = "1857";
+    var csdn_username = "";
+    var record_time = 0;
+    var video_duration = 0;
+    var course_title = "Learning AngularJS";
+    var course_price = "129.00";
+    var auto_start = false;
+    
+    var params_arr = window.location.href.split('?');
+	if (params_arr.indexOf('auto_start=1') > -1){
+		auto_start = true;
+	}
+    var image = "/images/player_background.jpg";
+
+	//套餐加入购物车
+	$(".buy_bt").click(function(e){
+		var goods_id = $(this).attr("data-id");
+		cart.add(3,0,goods_id,1,'payCallBackCombo');
+		e.preventDefault();
+	});
+
+	function payCallBackCombo(data){
+		if(data){
+			window.location = "http://cart.csdn.net/";
+		}
+	}
+
+
+</script>
+<script src="http://edu.csdn.net/js/nbdplay/cyberplayer.min.js" type="text/javascript"></script>
+<script src="http://edu.csdn.net/js/nbdplay/back_top.js" type="text/javascript"></script>
+<script src="http://edu.csdn.net/js/nbdplay/video_list.js" type="text/javascript"></script>
+<!--视频end-->
+<script type="text/javascript" src="http://edu.csdn.net/js/edu_curriculum_view_swap.js"></script>
+<script type="text/javascript" src="http://edu.csdn.net/js/edu_common_component.js"></script>
+<script type="text/javascript" src="http://edu.csdn.net/js/edu_common_popup.js"></script>
+<script type="text/javascript" src="http://edu.csdn.net/js/apps/comments_new.js"></script>
+<script type="text/javascript">//弹出购物车
+comon_popup($(".shiting"), $(".popup_buycar"), 300, 1857,1);
+//展开收起
+edu_component.edu_toggle_more($(".toggle_more"), $(".catalog_cont"));
+//选项卡（评价和大纲）
+edu_component.edu_tab($(".class_outline_panel .nav-tabs li"), $(".class_outline_panel"));
+//扫描二维码
+$("#erweima_btn").hover(function(){ 
+	//获取二维码
+	if ($('#subscribe_erweima').attr('data-src') == ''){
+		$.post('/weixin/getQcodeUrl', {}, function(result){
+			if (result.status){
+				$('#subscribe_erweima').attr('src', result.qcode);	
+				$('#subscribe_erweima').attr('data-src', result.qcode);	
+			}
+		}, 'JSON');
+	}
+    $(".erweima_hide").show();
+	var width=$(this).parent().width();
+	$(".erweima_hide").show().css({right:width-$(this).position().left-$(".erweima_hide").width()/2-35});
+},function(){ 
+    $(".erweima_hide").hide();
+});
+
+	//学院APP
+	$("#app_down").hover(function(){
+		var width=$(this).parent().width();
+		$(".erweima_download").show().css({right:width-$(this).position().left-$(".erweima_download").width()/2-50});
+	},function(){
+		$(".erweima_download").hide();
+	});
+</script>
+<script>
+	//ajax获取收藏当前状态
+	function show_collect(data){
+		if(data==1){
+			return '&nbsp;取消收藏&nbsp;&nbsp;';
+			return '<i onclick="check_collect();" class="icon-star active" title="取消收藏" style="cursor: pointer;"></i>';//已收藏状态显示html
+		}else{
+			return '&nbsp;收藏&nbsp;&nbsp;';
+			return '<i onclick="check_collect();" class="icon-star" title="收藏" style="cursor: pointer;"></i>';//未收藏状态显示html
+		}
+	}
+	$(function(){
+		//验证是否可以播放
+		if ("1" == '0'){
+						var  player_to_buy=  " <div id='player_to_buy'><ul> <li class='title_desc'>本课时为收费课时，继续观看，您可以购买本课程：</li> <li class='detail_class_name'>"+course_title+"</li> <li class='price'>价格：￥"+course_price+"    </li> <li class='li_buy'><a onclick='buyNow()' class='bt_buy cklayer' data-layer='layerWindowTab' data-zid='" + course_id + "' data-type='1'>立即购买 </a></li> </ul>  </div>";
+			            $("#player_container_wrapper").append(player_to_buy);
+            $("#player_container_wrapper object").hide();
+		}
+		
+        var t=Math.random();
+		$.ajax({    
+            type: "get",  
+            url: "http://edu.csdn.net/collect/ajRequestGetIco?id=1857&t="+t,
+            contentType: "application/json; charset=utf-8",     
+            dataType: "json",     
+            success: function(json){
+                if(json.status==1){
+                	$("#show_collect").html(show_collect(json.data));
+                }
+            }
+        });
+
+	    $('.summary').each(function(){
+	        var ele = $(this), html = ele.html(), size = parseInt(ele.attr('data-summary-size'), 10);
+	        if(html.length <= size) return;
+	        ele.empty();
+	        var span = $('<span></span>')
+	            .html(html.substr(0, size))
+	            .appendTo(ele);
+	        $('<div class="toggle_more">全部展开<div class="fa fa-angle-down"></div></div>').insertAfter(ele).click(function(){
+	            if( span.html() !== html ){
+	                span.html(html);
+	                $(this).addClass('full').html('收起展开<div class="fa fa-angle-up"></div>');
+	            } else {
+	                span.html(html.substr(0, size));
+	                $(this).removeClass('full').html('全部展开<div class="fa fa-angle-down"></div>');
+	            }
+	        });
+
+	    });
+	})
+	function check_collect(){
+		//如果没有登录，跳转到登录
+		if (!user_is_login()){
+			window.location = "http://passport.csdn.net/account/login?from=" + window.location.href;
+		}
+		//切换收藏
+		$.ajax({
+            type: "get",  
+            url: "http://edu.csdn.net/collect/ajRequestCollect?id=1857&time="+Date.parse(new Date()),     
+            contentType: "application/json; charset=utf-8",     
+            dataType: "json",     
+            success: function(json){
+                if(json.status==1){
+                	$("#show_collect").html(show_collect(json.data));
+                	if(json.data==1){alert("收藏成功")};
+                }
+            }
+        });
+	}
+	</script>
+
+<script>
+	var goods_name = "Learning AngularJS";
+	var goods_id = 1750;
+	var price = 129.00;
+	var _this_domain_url = "http://" + document.domain;
+	//播放记录时间
+	var record_time_url = _this_domain_url + "/bcscloud/course_video/record";
+	var bd_record_url = _this_domain_url + "/bdplayer/record";
+	//播放完成
+	var record_finish_url = _this_domain_url + "/bcscloud/course_video/complete";
+	//是否允许播放
+	var is_allowed_url = _this_domain_url + "/bcscloud/course_video/isAllowed";
+
+	//是否评论过该课程 ，评论该项废弃
+	var is_comment_url = _this_domain_url + "/bcscloud/course_video/iscomment";
+	//获取下一节课
+	var next_lesson_url = _this_domain_url + "/bcscloud/course_video/getNextLesson";
+	//播放记录-知道上次播放到哪里了
+	var last_record_time_url = _this_domain_url + "/bcscloud/course_video/getRecordTime";
+	//播放列表点击时获得该课时的URL
+	var get_current_classtime_url = _this_domain_url + "/bcscloud/course_video/getRecord";
+	var counts = 0;
+	var record_time = 0;
+	var position = 0;
+	var next_lesson = "";
+	//是否自动播放
+	if (typeof(auto_start) == 'undefined'){
+		var auto_start = true;
+	}
+	//混入第一次播放的URL等信息
+	//上次的播放位置
+	var mLastPos = 12;
+	//用于区分是离开页面刷新还是点击刷新。
+	var hide_quite_alert = 0;
+	//片头图片
+	//if (typeof(image) == 'string'){ config.image = image; }
+	var player = cyberplayer("player_container").setup(
+		{
+			flashplayer: "/js/nbdplay/cyberplayer.flash.swf",
+			width: 860,
+			height: 580,
+			backcolor: "#FFFFFF",
+			stretching: "uniform",
+			volume: 100,
+			tracks : [{
+				file: "http://v.edu.csdn.net/media/srt/28878.srt",
+				label: "Chinese",
+				"default": true
+			}],
+						playlist: [
+				{ sources: [{ file: "http://v.edu.csdn.net/media/m3u8/adv/10s/4.m3u8"}]},
+				{ sources: [{ file: "http://v.edu.csdn.net/media/m3u8/1857/28878.m3u8"}],
+					tracks : [{
+					file: "http://v.edu.csdn.net/media/srt/28878.srt",
+					label: "Chinese",
+					"default": true
+				}]}
+			],
+						autoStart : true,
+			controls : "over"
+		}
+	);
+
+	/**
+	 * 播放器暂停事件
+	 * 2015年8月20日18:08:40
+	 * liwei@csdn.net
+	 */
+//	player.onPause(function(){
+//		var position = player.getPosition();    //获取暂停位置
+//		$.ajax({
+//			type: "post",
+//			url: bd_record_url,
+//			data:{
+//				lesson_id: lesson_id,
+//				course_id: course_id,
+//				position:  position,
+//				agent:  navigator.userAgent,
+//				referrer: document.referrer,
+//				type:   2
+//			}
+//		});
+//	});
+
+
+	/**
+	 * 播放事件
+	 * 2015年8月20日18:11:05
+	 * liwei@csdn.net
+	 */
+//	player.onPlay(function(){
+//		//console.log("onPlay");
+//		var position = player.getPosition();    //获取播放位置
+//		$.ajax({
+//			type: "post",
+//			url: bd_record_url,
+//			data:{
+//				lesson_id: lesson_id,
+//				course_id: course_id,
+//				position:  position,
+//				agent:  navigator.userAgent,
+//				referrer: document.referrer,
+//				type:   1       //
+//			}
+//		});
+//	});
+
+	/**
+	 * 播放器拖动事件
+	 * 2015年8月21日09:28:28
+	 * liwei@csdn.net
+	 */
+//	player.onSeek(function(){
+//		//console.log("onSeek");
+//		$.ajax({
+//			type: "post",
+//			url: bd_record_url,
+//			data:{
+//				lesson_id: lesson_id,
+//				course_id: course_id,
+//				position:  player.getPosition(),
+//				agent:  navigator.userAgent,
+//				referrer: document.referrer,
+//				type:   3       //拖动
+//			}
+//		});
+//	});
+
+	/**
+	 * 播放完成事件
+	 * 2015年8月21日10:10:14
+	 * liwei@csdn.net
+	 */
+//	player.onComplete(function(event){
+//		$.ajax({
+//			type: "post",
+//			url: bd_record_url,
+//			data:{
+//				lesson_id: lesson_id,
+//				course_id: course_id,
+//				position:  player.getPosition(),
+//				agent:  navigator.userAgent,
+//				referrer: document.referrer,
+//				type:   5       //缓冲
+//			}
+//		});
+//	});
+
+	/**
+	 * 缓冲事件
+	 * 2015年8月21日09:56:09
+	 * liwei@csdn.net
+	 */
+//	player.onBuffer(function(){
+//		//console.log("onBuffer");
+//		$.ajax({
+//			type: "post",
+//			url: bd_record_url,
+//			data:{
+//				lesson_id: lesson_id,
+//				course_id: course_id,
+//				position:  player.getPosition(),
+//				agent:  navigator.userAgent,
+//				referrer: document.referrer,
+//				type:   4       //缓冲
+//			}
+//		});
+//	});
+
+	//当前缓冲位置
+	var current_position;
+	player.onBufferChange(function (event) {
+			var duration = player.getDuration();
+			if (duration) {
+				current_position = parseInt(duration * event.bufferPercent) / 100;
+			}
+		}
+	);
+
+	//获得上次播放位置
+	/**
+	 $.ajax({
+    type: "post",
+    url: last_record_time_url,
+    data: {
+        lesson_id: lesson_id,
+        course_id: course_id,
+        csdn_username: csdn_username,
+        record_time: record_time,
+    },
+    dataType: "json",
+    success: function (obj) {
+//alert("获取该视频播放位置")
+        mLastPos = obj.time;
+//比对缓冲位置与上次记录的位置，决定seek逻辑
+        player.onTime(function (event) {
+            if (mLastPos != 0) {
+                player.seek(mLastPos);
+            }
+            if (current_position > mLastPos) {
+                mLastPos = 0;
+            }
+        });
+    },
+    error: function (err) {
+// alert("后台出错了");
+    }
+})
+	 **/
+
+//关闭窗口前上报，增加学习记录
+	window.onbeforeunload = onbeforeunload_handler;
+	function onbeforeunload_handler() {
+		if (hide_quite_alert == 1) return;
+		record_time = player.getPosition();
+		$.ajax({
+			type: "post",
+			url: record_time_url,
+			data: {
+				lesson_id: lesson_id,
+				course_id: course_id,
+				csdn_username: csdn_username,
+				record_time: record_time,
+			},
+			dataType: "json",
+			success: function (obj) {
+				//alert("关闭前已提交时间点后台记录")
+			},
+			error: function (err) {
+				// alert("后台出错了");
+			}
+		})
+	}
+
+	//当点击播放列表上的具体课时
+	$("#player_list_content").find(".left").click(function () {
+		$("#player_list_content ul").removeClass("blue");
+		$(this).parent().addClass("blue");
+		//点击时要先去记录上个视频的播放位置
+		record_time = player.getPosition();
+		$.ajax({
+			type: "post",
+			url: record_time_url,
+			data: {
+				lesson_id: lesson_id,
+				course_id: course_id,
+				csdn_username: csdn_username,
+				record_time: record_time,
+				lesson_title: ""
+
+			},
+			dataType: "json",
+			success: function (obj) {
+				//alert("关闭前已提交时间点后台记录")
+			},
+			error: function (err) {
+				// alert("后台出错了");
+			}
+		})
+
+		//去该节点上拿到相应的参数值
+		course_id = this.getAttribute("video").split(",")[0];
+		lesson_id = this.getAttribute("video").split(",")[1];
+		$.ajax({
+			type: "post",
+			url: get_current_classtime_url,
+			data: {
+				lesson_id: lesson_id,
+				course_id: course_id,
+				csdn_username: csdn_username
+			},
+			dataType: "json",
+			success: function (obj) {
+				//需要做判空处理
+				$.ajax({
+					type: "post",
+					url: is_allowed_url,
+					data: {
+						lesson_id: lesson_id,
+						course_id: course_id,
+						csdn_username: csdn_username,
+						lesson_title: "计算机科学与技术"
+					},
+					dataType: "json",
+					success: function (obj) {
+						// alert("验证是不是评价")
+						//没有权限
+						if (obj.code == 0) {
+														var  player_to_buy=  " <div id='player_to_buy'><ul> <li class='title_desc'>本课时为收费课时，继续观看，您可以购买本课程：</li> <li class='detail_class_name'>"+course_title+"</li> <li class='price'>价格：￥"+course_price+"    </li> <li class='li_buy'><a onclick='buyNow()' class='bt_buy cklayer' data-layer='layerWindowTab' data-zid='" + course_id + "' data-type='1'>立即购买 </a></li> </ul>  </div>";
+														$("#player_container_wrapper").append(player_to_buy);
+							$("#player_container_wrapper object").hide();
+
+						}
+						else {
+							hide_quite_alert = 1;
+							window.location = _this_domain_url + "/course/detail/" + course_id + "/" + lesson_id + "?auto_start=1";
+						}
+					},
+					error: function (err) {
+						// alert("后台出错了");
+					}
+				})
+			},
+			error: function (err) {
+				// alert("后台出错了");
+			}
+		})
+	})
+</script>
+</body>
+</html>
